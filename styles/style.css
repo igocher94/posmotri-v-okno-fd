@@ -6,12 +6,13 @@
 
 html {
   block-size: 100%;
+  display: flex;
 }
 
 .page {
+  display: flex;
+  margin: auto;
   inline-size: 1200px;
-  margin: 0 auto;
-  padding: 133px 30px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -109,7 +110,10 @@ ol {
 }
 
 .search-form__fieldset-title {
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
+  font-size: 18px;
+  line-height: normal;
 }
 
 .search-form__label {
@@ -312,6 +316,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-inline-size: 192px;
 }
 
 .content__video-card-description {
