@@ -68,6 +68,7 @@ ol {
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
+  margin: auto;
 }
 
 /* РЕЗУЛЬТАТ */
